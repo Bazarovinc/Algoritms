@@ -7,6 +7,7 @@ A search algorithm that finds the position of a target value within a sorted arr
 ```
 >python binary_search.py
 ```
+<img align="center" src="https://github.com/Bazarovinc/Algoritms/blob/master/imagies/binary_search.jpg" width="100%" />
 ## sort.py
 ### Description
 Selection sort is an in-place comparison sorting algorithm.
@@ -14,3 +15,12 @@ Selection sort is an in-place comparison sorting algorithm.
 ```
 >python sort.py
 ```
+<img align="center" src="https://github.com/Bazarovinc/Algoritms/blob/master/imagies/sort.jpg" width="100%" />
+## factorial.py
+### Description
+Recursion algoritm of finding factorial of n.
+### Usage
+```
+>python factorial.py
+```
+<img align="center" src="https://github.com/Bazarovinc/Algoritms/blob/master/imagies/factorial.jpg" width="100%" />
