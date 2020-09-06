@@ -15,6 +15,6 @@ def binary_search(list, item):
     return None
 
 
-item = int(input('Загадайте число'))
+item = int(input('Загадайте число от 1 до 10000000: '))
 my_list = list(range(1, 10000001))
-print(binary_search(my_list, item))
+print("Позиция в массиве:", binary_search(my_list, item))

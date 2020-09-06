@@ -3,4 +3,6 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-print(factorial(5))
+
+n = int(input("Input n: "))
+print(f"Factorial of {n} is: {factorial(n)}")

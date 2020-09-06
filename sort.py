@@ -17,8 +17,8 @@ def selectionSort(arr):
     return newArr
 
 array = []
-n = int(input("Введите количество элементов"))
-for i in range(1, n):
-    array[i] = random.randint
-print(array)
-print(selectionSort(array))
+n = int(input("Enter number of elements: "))
+for i in range(n):
+    array.append(random.randint(-2 * n, 2 * n))
+print(f"Randomly generated list of {n} elements:\n{array}")
+print("Sorted list:\n" + str(selectionSort(array)))
